@@ -1,0 +1,17 @@
+1. Plaast een aantal extra files (min. 3) in uw lokale directory en volg opnieuw de 
+hierboven vermelde stappen. Kijk telkens na of je die files terugvindt op GitHub. 
+Wijzig nu één van de files en zorg dat de wijziging doorgevoerd wordt naar GitHub. 
+2. Op http://pcottle.github.io/learnGitBranching/?NODEMO staat een zeer mooie 
+tutorial over Git. Neem deze tutorial zoveel mogelijk door (zowel main als remote) 
+Zoek desnoods de termen die niet duidelijk zijn op (ProGit.pdf of www). 
+3. Maak op GitHub een nieuwe repo aan. Noem deze repo ‘RubyProgs’. Zet daarin een 
+willekeurige README-file. Maak een nieuwe file aan: RubyProg1.rb met 
+onderstaande code. Probeer de code te begrijpen en zet deze file ook op GitHub. 
+def test(a=1,b=2,*c) 
+ puts "#{a},#{b}" 
+ c.each{|x| print " #{x}, "} 
+end 
+test 3, 6, 9, 12, 15, 18 
+ 
+ 
+4. Als je tijd over hebt kan je altijd verder werken aan je studie-opdracht en/of SAS. 
